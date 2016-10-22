@@ -11,3 +11,8 @@ This is because when many people are working on the same project continuous chan
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 Fork is used to make a remote copy of a repository on GitHub. Clone is used to make a local copy of either a remote repository on GitHub or a local repository. Branch basically operates on one repository.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+So that we can know by using git diff master origin/master the changes that we have made since last pulling from the remote.
